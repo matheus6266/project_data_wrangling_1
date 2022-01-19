@@ -1,8 +1,9 @@
-############################# SCRIPT PRINCIPAL ################################
+############################# MAIN SCRIPT #####################################
 
 #------------------------- Installing the packs -------------------------------
 
 install.packages("tidyverse")
+install.packages("date")
 
 #------------------------- Loading the packs -----------------------------------
 
@@ -10,6 +11,7 @@ install.packages("tidyverse")
 # Dplyr contain some functions comuns to manipulate datasets
 
 library("tidyverse")
+library("date")
 
 #------------------------ Loading the data sets --------------------------------
 
