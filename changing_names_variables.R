@@ -11,6 +11,7 @@ new_names_users <- c("userId", "user", "gender",
                      "registered", "cancelled")
 
 names(users) <- new_names_users
+users$registered <- NULL
 
 # SECOND FORM: USING THE FUNCTION RENAME
 
